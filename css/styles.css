@@ -1,0 +1,128 @@
+.left{ float: left; width: 50%; }
+
+.right{ float: right; width: 50%; }
+
+.clear{ clear: both; }
+
+.border{
+    border: 0.5px solid black;
+    margin: 5px;
+}
+.paws{
+    background-image: url(../css/img/dogpaws.png);
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+a {
+    text-decoration: none;
+}
+a:link{
+    border: 2px green;
+    padding: 10px 20px;
+    color: lightblue;
+}
+a:visited{
+    border: 2px red;
+    padding: 10px 20px;
+    color: green;
+}
+a:hover{
+    border: 2px yellow;
+    padding: 10px 20px;
+    color: purple;
+}
+a:active{
+    border: 2px orange;
+    padding: 10px 20px;
+    color: navy;
+}
+nav {
+    background-color: #FFC1CC;
+    position: sticky;
+    top: 0px;
+}
+.aqua{ background-color: rgb(140, 219, 255); }
+
+.white{ background-color: rgb(255, 255, 255); }
+
+.short{
+    height:200px;
+    font-size: larger;
+}
+
+.long{
+    height: 800px;
+    font-size: larger;
+}
+
+
+section{
+     height: 500px;
+  }
+
+aside{ height: 500px; }
+
+body{
+    padding: 5px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.yellow{
+    background-color: yellow;
+    color: purple;
+}
+
+.green{
+    background-color: green;
+    color: violet;
+}
+
+.orange{
+    background-color: orange;
+    color: blue; 
+}
+
+.pink{
+    background-color: pink;
+    color: purple;
+}
+.lime{
+    background-color: lime;
+    color: navy;
+}
+.blackorange{
+    background-color: black;
+    color: orange;
+}
+.largetext{
+    font-size:x-large;
+}
+
+.top{
+    position: absolute;
+}
+
+footer{
+    color: black;
+}
+.contact{
+    background-color: black;
+    color: aqua;
+}
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            
+}
